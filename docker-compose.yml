@@ -1,0 +1,14 @@
+version: '3.7'
+services:
+  postgres:
+    ports:
+      - '5433:5432'
+    environment:
+      - POSTGRES_USER=admin
+      - POSTGRES_PASSWORD=password
+    image: postgres
+    volumes:
+      - data_db:/var/lib/postgresql/data
+volumes:
+  data_db:
+    driver: 'local'
