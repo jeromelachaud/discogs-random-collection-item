@@ -1,6 +1,6 @@
 {
   "name": "discogs.jeromelachaud.com",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
   "proxy": "http://localhost:8080",
   "dependencies": {
@@ -25,6 +25,9 @@
     "sequelize": "^5.8.5",
     "sequelize-cli": "^5.4.0"
   },
+  "devDependencies": {
+    "release-it": "^12.0.1"
+  },
   "scripts": {
     "db:create": "sequelize db:create",
     "db:drop": "sequelize db:drop",
@@ -40,7 +43,24 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "release": "release-it"
+  },
+  "release-it": {
+    "git": {
+      "commit": true,
+      "tagName": "v${version}",
+      "commitMessage": "v${version} [ci skip]"
+    },
+    "github": {
+      "release": true
+    },
+    "npm": {
+      "publish": false
+    },
+    "scripts": {
+      "afterRelease": "echo Successfully released ${name} v${version} to ${repo.repository}."
+    }
   },
   "eslintIgnore": [
     "build"
