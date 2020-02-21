@@ -1,3 +1,9 @@
+## What this App do is :
+
+- Fetch the Discogs API and update the App' database with the latest additions in you collection
+- Send you an email with the amount of added releases
+- Display a random item of your collection
+
 ### Development:
 
 `yarn start:server:dev` starts the server on [http://localhost:8080](http://localhost:8080) with nodemon
