@@ -2607,12 +2607,12 @@ braces@^2.3.1, braces@^2.3.2:
     split-string "^3.0.2"
     to-regex "^3.0.1"
 
-brain.js@1.1.2:
-  version "1.1.2"
-  resolved "https://registry.yarnpkg.com/brain.js/-/brain.js-1.1.2.tgz#261c67cb6fc62918954e30836850868f89c77773"
-  integrity sha1-Jhxny2/GKRiVTjCDaFCGj4nHd3M=
+brain.js@1.6.1:
+  version "1.6.1"
+  resolved "https://registry.yarnpkg.com/brain.js/-/brain.js-1.6.1.tgz#ab18c591882feeda11e70c62a427fe78ca4aa817"
+  integrity sha512-c+qrOGoW9VvIohTf70MQCjNzrunXVWI09CT27BZ/lZb6nObGxkdP10c4g9Ztnd8WFJijGdh3veh1A1vk/daIUA==
   dependencies:
-    gpu.js "^1.0.0"
+    gpu.js "^1.10.4"
     thaw.js "^2.0.0"
 
 brorand@^1.0.1:
@@ -5259,7 +5259,7 @@ got@^6.7.1:
     unzip-response "^2.0.1"
     url-parse-lax "^1.0.0"
 
-gpu.js@^1.0.0:
+gpu.js@^1.10.4:
   version "1.10.4"
   resolved "https://registry.yarnpkg.com/gpu.js/-/gpu.js-1.10.4.tgz#f0290dc08d40a9de7329b91f1523703cdd0a64c7"
   integrity sha512-qh5O1LXwwkhGOpEicR9SnQB7xduUDY5rKGPWj9yOFLNI90bX+mReooGQjnL3iZ08btBOT0zQGu9wKA+gGy2BhQ==
