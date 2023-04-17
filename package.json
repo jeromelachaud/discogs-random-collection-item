@@ -6,7 +6,7 @@
   "dependencies": {
     "@hapi/joi": "^15.0.1",
     "axios": "^0.21.1",
-    "brain.js": "1.1.2",
+    "brain.js": "1.6.1",
     "cors": "^2.8.5",
     "dotenv": "^8.0.0",
     "email-templates": "^5.0.5",
