@@ -19,7 +19,10 @@ if (process.env.DATABASE_URL) {
 fs.readdirSync(__dirname)
   .filter(file => file !== 'index.js')
   .forEach(file => {
-    const model = sequelize.import(path.join(__dirname, file))
+    const model = require(path.join(__dirname, file))(
+      sequelize,
+      Sequelize.DataTypes
+    )
     db[upperFirst(model.name)] = model
   })
 db.sequelize = sequelize
