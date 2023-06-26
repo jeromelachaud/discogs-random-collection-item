@@ -4,7 +4,7 @@
   "private": true,
   "proxy": "http://localhost:8080",
   "dependencies": {
-    "@hapi/joi": "^15.0.1",
+    "@hapi/joi": "^17.1.1",
     "axios": "^0.21.1",
     "brain.js": "1.6.1",
     "cors": "^2.8.5",
