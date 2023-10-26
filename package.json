@@ -16,7 +16,7 @@
     "node-schedule": "^2.1.1",
     "node-vibrant": "^3.2.0-alpha",
     "nodemon": "^2.0.22",
-    "pg": "^8.11.1",
+    "pg": "^8.11.3",
     "pg-hstore": "^2.3.2",
     "prettier": "^1.17.0",
     "react": "^16.8.6",
