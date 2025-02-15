@@ -6,7 +6,7 @@ services:
     environment:
       - POSTGRES_USER=admin
       - POSTGRES_PASSWORD=password
-    image: 'postgres:16.6'
+    image: 'postgres:16.7'
     volumes:
       - data_db:/var/lib/postgresql/data
 volumes:
