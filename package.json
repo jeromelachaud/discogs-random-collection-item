@@ -19,8 +19,8 @@
     "pg": "^8.11.5",
     "pg-hstore": "^2.3.2",
     "prettier": "^3.2.5",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
     "react-scripts": "5.0.1",
     "sequelize": "^6.37.2",
     "sequelize-cli": "^6.6.2"
