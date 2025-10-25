@@ -14,7 +14,7 @@
     "jsonwebtoken": "^9.0.2",
     "morgan-body": "^2.4.7",
     "node-schedule": "^2.1.1",
-    "node-vibrant": "^3.2.0-alpha",
+    "node-vibrant": "^4.0.0",
     "nodemon": "^3.1.1",
     "pg": "^8.11.5",
     "pg-hstore": "^2.3.2",
