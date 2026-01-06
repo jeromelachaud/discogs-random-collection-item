@@ -23,7 +23,7 @@
     "react-dom": "^19.1.0",
     "react-scripts": "5.0.1",
     "sequelize": "^6.37.2",
-    "sequelize-cli": "^6.6.2"
+    "sequelize-cli": "^6.6.5"
   },
   "scripts": {
     "db:create": "sequelize db:create",
