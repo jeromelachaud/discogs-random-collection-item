@@ -4,7 +4,7 @@
   "private": true,
   "proxy": "http://localhost:8080",
   "dependencies": {
-    "joi": "^17.1.1",
+    "joi": "^18.0.0",
     "axios": "^1.7.2",
     "brain.js": "1.6.1",
     "cors": "^2.8.5",
