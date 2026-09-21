@@ -8,7 +8,7 @@
     "axios": "^1.7.2",
     "brain.js": "1.6.1",
     "cors": "^2.8.5",
-    "dotenv": "^17.2.3",
+    "dotenv": "^18.0.0",
     "email-templates": "^13.0.0",
     "express": "^5.1.0",
     "jsonwebtoken": "^9.0.2",
